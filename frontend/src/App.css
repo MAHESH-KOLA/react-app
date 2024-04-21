@@ -1,0 +1,112 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+
+.mainContainer{
+  background-color: #f0f3fa;
+  max-width: 60%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+@media only screen and (max-width:600px) {
+  .mainContainer{
+    max-width: 100%;
+  }
+}
+
+.myMessage{
+  margin-left: auto; 
+  max-width: 45%;
+  border-radius: 15px 15px 0px 15px;
+  background-color: #b1c9ef;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  padding: 12px;
+  text-align: right;
+}
+
+.otherMessage{
+  margin-right: auto;
+  width: 45%;
+  border-radius: 0px 15px 15px 15px;
+  background-color: #8aaeef;
+  margin-left: 8px;
+  margin-top: 12px;
+  margin-bottom: 8px;
+  padding: 12px;
+  text-align: left;
+}
+
+.authorName{
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 2px;
+  margin-bottom: 10px;
+  
+}
+
+.timeStamp{
+  color: grey;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.messageContent{
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 2px;
+  margin-bottom: 4px;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  position: sticky;
+  top: 0px;
+  background-color: #d7e1f7;
+  z-index: 9;
+}
+
+header a{
+  text-decoration: none;
+  color: #395886;
+  cursor: pointer;
+}
+
+header a.logo{
+  font-weight: bold;
+}
+
+header nav{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+nav p{
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #395886;
+}
