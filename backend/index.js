@@ -61,6 +61,7 @@ app.use(cors({ credentials: true, origin: 'http://localhost:3000' }));
 app.use(express.json());
 mongoose.connect('mongodb://127.0.0.1:27017/Chatapp')
     .then((result) => server.listen(5000))
+    .then(()=>console.log("DB connected successfully"))
     .catch((err) => console.log(err));
 
 app.use(webRoutes);

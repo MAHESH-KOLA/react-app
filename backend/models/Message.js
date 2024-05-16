@@ -7,6 +7,9 @@ const MessageSchema = new Schema({
     message:{
         type: String,
     },
+    readBy:{
+        type: Boolean,
+    },
     extraInfo: {
         type: String
     }

@@ -103,7 +103,7 @@ function HomePage() {
           </React.Fragment>
         }
       />
-      <h1 style={{ color: '#395886', marginBottom: '0px' }}>SpeakEasy</h1>
+      <h1 style={{ color: '#395886', marginBottom: '0px' }}>TalkMore</h1>
       <h2 style={{ color: '#395886', marginTop: '0px' }}>Connect, Collaborate, Communicate</h2>
       {
         chat.map((payload, ind) => {
